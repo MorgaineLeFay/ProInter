@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.ramon.projectprointerv">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/imagem"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCtTd1IV_bobt3p8y9mKUYrBxmj9g5KgNU" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity android:name=".activities.app.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.app.CadastroActivity"/>
+
+        <activity android:name=".activities.drive.DriveUserActivity"/>
+
+        <activity android:name=".activities.drive.DriveCreateFileActivity"/>
+
+        <activity android:name=".activities.app.TransitionActivity"/>
+
+        <activity android:name=".activities.drive.DriveUpdateFiles"/>
+
+        <activity android:name=".activities.drive.DriveOpenFileActivity"/>
+
+    </application>
+
+</manifest>

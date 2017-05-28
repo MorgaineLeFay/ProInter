@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjectProInterV</string>
+    <string name="app_info1">*ATENÇÃO: Aplicação em fase alpha, pequenos bugs e telas de ANR(Application not responding)
+    poderão eventualmente aparecer. \n\n*O compartilhamento de arquivos com outros usuários acontece através da plataforma
+    do google drive, e a seleção de contas a serem inseridas na lista de compartilhamento somente poderá ser
+    realizada no app oficial ou através da aplicação do google drive via web. Os demais serviços como criação de pastas
+    e arquivos, atualização de arquivos e visualização dos mesmos encontra-se disponível \n\n &lt;&lt;&lt;WELCOME&gt;&gt;&gt; </string>
+    <string name="app_info2">follow the wite rabbit</string>
+
+
+
+
+</resources>
